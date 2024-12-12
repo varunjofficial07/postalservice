@@ -208,6 +208,10 @@ const UserPage = () => {
           <h2>Knowledge Sharing & Help</h2>
           <p>Access user guides and tools for assistance.</p>
         </div>
+        <div className="section-box tools-help" onClick={() => window.location.href = 'https://guileless-granita-8af434.netlify.app/'}>
+          <h2>Leader Board</h2>
+          <p>Sustainability Leaders</p>
+        </div>
       </main>
     </div>
   );

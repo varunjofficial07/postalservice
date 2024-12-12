@@ -87,7 +87,11 @@ app.post('/api/register', async (req, res) => {
 });
 
 // Start the server
+const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://postbackend-50023903898.development.catalystappsail.in/api/endpoint';
+
 const PORT = process.env.X_ZOHO_CATALYST_LISTEN_PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+
+
 });

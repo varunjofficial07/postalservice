@@ -1,0 +1,8 @@
+{
+  "appsail": [
+    {
+      "source": "C:\\React\\brsr-app\\backend\\appsail-nodejs",
+      "name": "postbackend"
+    }
+  ]
+}
